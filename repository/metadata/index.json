@@ -1,0 +1,21 @@
+{
+  "repository": {
+    "name": "SystemOS Official Repository",
+    "version": "1.0.0",
+    "url": "http://localhost:3000",
+    "description": "Official SystemOS package repository",
+    "maintainer": "SystemOS Development Team",
+    "created": "2025-08-07T16:05:58.312Z"
+  },
+  "packages": {},
+  "categories": [
+    "system",
+    "utilities",
+    "development",
+    "games",
+    "multimedia",
+    "network",
+    "security"
+  ],
+  "lastUpdated": "2025-08-07T16:05:58.313Z"
+}

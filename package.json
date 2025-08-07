@@ -1,0 +1,30 @@
+{
+  "name": "systemos-repository-server",
+  "version": "1.0.0",
+  "description": "SystemOS Package Repository Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "init": "node scripts/init-repo.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "cors": "^2.8.5",
+    "helmet": "^7.0.0",
+    "compression": "^1.7.4",
+    "express-rate-limit": "^6.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "systemos",
+    "package",
+    "repository",
+    "server"
+  ],
+  "author": "SystemOS Development Team",
+  "license": "MIT"
+}

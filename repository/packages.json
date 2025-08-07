@@ -1,0 +1,54 @@
+{
+  "repository": {
+    "name": "SystemOS Official Repository",
+    "version": "1.0.0",
+    "url": "http://localhost:3000",
+    "description": "Official SystemOS package repository",
+    "maintainer": "SystemOS Development Team",
+    "created": "2025-08-07T16:05:58.321Z"
+  },
+  "packages": [
+    {
+      "name": "sysfetch",
+      "version": "1.0.0",
+      "description": "A system information display tool for SystemOS, inspired by neofetch",
+      "author": "SystemOS Development Team",
+      "keywords": [
+        "system",
+        "info",
+        "neofetch",
+        "systemos",
+        "cli",
+        "utilities"
+      ],
+      "category": "utilities",
+      "size": 5206,
+      "hash": "11f1097f43d48c3140c8d9da41121b6c1545059849ea7a24b3995e224a755fe7",
+      "dependencies": {
+        "systemos-sdk": "file:../../sdk"
+      },
+      "permissions": [
+        "system.info",
+        "fs.read",
+        "users.info"
+      ],
+      "homepage": "https://github.com/systemos/sysfetch",
+      "repository": "https://github.com/systemos/sysfetch.git",
+      "license": "MIT",
+      "createdAt": "2025-08-07T15:48:15.462Z",
+      "updatedAt": "2025-08-07T16:05:58.321Z",
+      "downloadUrl": "/packages/sysfetch/sysfetch-1.0.0.syos",
+      "infoUrl": "/packages/sysfetch/sysfetch-1.0.0.syfo"
+    }
+  ],
+  "categories": [
+    "system",
+    "utilities",
+    "development",
+    "games",
+    "multimedia",
+    "network",
+    "security"
+  ],
+  "lastUpdated": "2025-08-07T16:05:58.321Z"
+}
