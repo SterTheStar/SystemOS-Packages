@@ -7,8 +7,6 @@ Um servidor de repositório de pacotes para SystemOS que serve arquivos `.syos` 
 ```
 repository-server/
 ├── server.js              # Servidor principal
-├── scripts/
-│   └── init-repo.js       # Script de inicialização
 ├── repository/
 │   ├── packages.json      # Lista de todos os pacotes
 │   └── packages/
