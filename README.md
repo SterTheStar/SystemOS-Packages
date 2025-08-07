@@ -26,8 +26,6 @@ npm install
 ## Inicialização
 
 ```bash
-# Inicializar repositório (copia pacotes existentes)
-npm run init
 
 # Iniciar servidor
 npm start
